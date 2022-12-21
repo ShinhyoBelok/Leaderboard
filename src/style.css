@@ -39,3 +39,14 @@ main {
   flex-direction: column;
   width: 50%;
 }
+
+.addScore {
+  flex-direction: column;
+  gap: 20px;
+  width: 75%;
+}
+
+.submitBtn {
+  width: fit-content;
+  align-self: flex-end;
+}
