@@ -2,6 +2,11 @@
   display: flex;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 main {
   width: 100vw;
   height: 100vh;
@@ -13,8 +18,24 @@ main {
 
 .displayBoardSection {
   flex-direction: column;
+  width: 50%;
+}
+
+.scoreBoardArticle {
+  align-self: center;
+}
+
+.scoreBoard {
+  list-style: none;
+  border: 2px solid black;
+}
+
+.scoreBoard li {
+  box-sizing: border-box;
+  padding: 4px;
 }
 
 .addScoreSection {
   flex-direction: column;
+  width: 50%;
 }
