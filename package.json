@@ -4,7 +4,8 @@
   "description": "Is a website that let you create a leaderboard base on scores.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack",
+    "start": "webpack serve"
   },
   "repository": {
     "type": "git",
