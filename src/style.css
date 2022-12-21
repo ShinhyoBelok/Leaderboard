@@ -1,0 +1,20 @@
+.flexbox {
+  display: flex;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 24px;
+}
+
+.displayBoardSection {
+  flex-direction: column;
+}
+
+.addScoreSection {
+  flex-direction: column;
+}
