@@ -1,0 +1,52 @@
+.flexbox {
+  display: flex;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 24px;
+}
+
+.displayBoardSection {
+  flex-direction: column;
+  width: 50%;
+}
+
+.scoreBoardArticle {
+  align-self: center;
+}
+
+.scoreBoard {
+  list-style: none;
+  border: 2px solid black;
+}
+
+.scoreBoard li {
+  box-sizing: border-box;
+  padding: 4px;
+}
+
+.addScoreSection {
+  flex-direction: column;
+  width: 50%;
+}
+
+.addScore {
+  flex-direction: column;
+  gap: 20px;
+  width: 75%;
+}
+
+.submitBtn {
+  width: fit-content;
+  align-self: flex-end;
+}
