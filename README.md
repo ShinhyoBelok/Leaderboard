@@ -109,7 +109,7 @@ You can deploy this project using:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Shinhyo**
+👤 **Shinhyo Belliard**
 
 - GitHub: [@ShinhyoBelok](https://github.com/ShinhyoBelok)
 - Twitter: [@Bell_iraki](https://twitter.com/Bell_iraki)
