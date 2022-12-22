@@ -20,3 +20,7 @@ refreshBtn.addEventListener('click', (e) => {
   e.preventDefault();
   getScore();
 });
+
+window.addEventListener('load', () => {
+  getScore();
+});
