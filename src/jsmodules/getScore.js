@@ -1,12 +1,12 @@
-import displayScores from "./displayScores";
+import displayScores from './displayScores.js';
+
 const gameId = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/WbWpQNfOG6YmK9JMvJlr/scores/';
 
 const getScore = async () => {
-  await fetch(gameId, {method: 'GET'})
-  .then((response) => response.json())
-  .then((data) => {
-    console.log(data.result);
-    displayScores(data.result);
-  });
-}
+  await fetch(gameId, { method: 'GET' })
+    .then((response) => response.json())
+    .then((data) => {
+      displayScores(data.result);
+    });
+};
 export default getScore;

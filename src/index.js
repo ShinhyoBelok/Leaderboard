@@ -1,6 +1,7 @@
 import './style.css';
-import Score from './jsmodules/addScore';
-import getScore from './jsmodules/getScore';
+import Score from './jsmodules/addScore.js';
+import getScore from './jsmodules/getScore.js';
+
 const submitBtn = document.querySelector('.submitBtn');
 const refreshBtn = document.querySelector('.refresh');
 
@@ -13,9 +14,9 @@ submitBtn.addEventListener('click', (e) => {
   newScore.addScore();
   name.value = '';
   score.value = '';
-})
+});
 
 refreshBtn.addEventListener('click', (e) => {
   e.preventDefault();
   getScore();
-})
+});
