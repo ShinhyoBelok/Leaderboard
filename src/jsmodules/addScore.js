@@ -1,3 +1,5 @@
+import getScore from './getScore.js';
+
 const gameId = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/WbWpQNfOG6YmK9JMvJlr/scores/';
 export default class Score {
   constructor(name, score) {
@@ -16,5 +18,6 @@ export default class Score {
         score: this.score,
       }),
     });
+    await getScore();
   }
 }

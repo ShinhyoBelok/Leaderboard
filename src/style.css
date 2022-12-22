@@ -1,3 +1,23 @@
+* {
+  font-family: 'Chakra Petch', sans-serif;
+  color: black;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+body {
+  justify-content: center;
+  align-items: center;
+  background-image: url('img/valorant-background.jpg');
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100vw;
+}
+
 .flexbox {
   display: flex;
 }
@@ -13,7 +33,7 @@ main {
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
-  padding: 24px;
+  padding: 10%;
 }
 
 .displayBoardSection {
@@ -23,30 +43,59 @@ main {
 
 .scoreBoardArticle {
   align-self: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.scoreBoardArticle h2 {
+  align-self: center;
 }
 
 .scoreBoard {
+  max-height: 350px;
+  align-self: center;
   list-style: none;
-  border: 2px solid black;
+  border: 3px solid black;
+  width: 70%;
+  min-width: 230px;
+  max-width: 370px;
+  overflow-y: scroll;
 }
 
 .scoreBoard li {
   box-sizing: border-box;
   padding: 4px;
+  padding-left: 15px;
 }
 
 .addScoreSection {
+  justify-self: center;
+  align-self: center;
   flex-direction: column;
-  width: 50%;
+  width: fit-content;
 }
 
 .addScore {
   flex-direction: column;
   gap: 20px;
-  width: 75%;
+  width: 25vw;
+  min-width: 190px;
+  max-width: 290px;
 }
 
 .submitBtn {
   width: fit-content;
   align-self: flex-end;
+}
+
+.shadow-box {
+  box-shadow: 5px 5px black;
+}
+
+.color1 {
+  background-color: #a1f5eb;
+}
+
+.color2 {
+  background-color: #f58790;
 }

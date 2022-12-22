@@ -4,24 +4,24 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap" rel="stylesheet">
   <title>Leaderboard</title>
 <script defer src="bundle.js"></script></head>
-<body>
+<body class="flexbox">
   <main class="flexbox">
     <section class="displayBoardSection flexbox">
       <h1>Leaderboard</h1>
-      <article class="scoreBoardArticle">
-        <h2>Recent scores <button type="button" class="refresh">Refresh</button></h2>
-        <ul class="scoreBoard">
-        </ul>
+      <article class="scoreBoardArticle flexbox">
+        <h2>Recent scores <button type="button" class="refresh shadow-box">Refresh</button></h2>
+        <ul class="scoreBoard"></ul>
       </article>
     </section>
     <section class="addScoreSection flexbox">
       <h2>Add your score</h2>
       <form class="addScore flexbox">
-        <input type="text" class="name" placeholder="Your name">
-        <input type="text" class="score" placeholder="Your score">
-        <button type="submit" class="submitBtn">Submit</button>
+        <input type="text" class="name shadow-box" placeholder="Your name">
+        <input type="number" class="score shadow-box" placeholder="Your score">
+        <button type="submit" class="submitBtn shadow-box">Submit</button>
       </form>
     </section>
   </main>
